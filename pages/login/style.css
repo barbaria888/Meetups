@@ -1,0 +1,37 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.login-form {
+  width: clamp(300px, 40%, 500px);
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(grey,rgb(119, 119, 119),white);
+  box-shadow: 0 2px 4px rgba(1 1, 1, 0.9);
+}
+
+.login-form form {
+  margin-bottom: 20px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form .login-btn {
+  margin-bottom: 20px;
+  background:linear-gradient(34deg,white,black);
+}
+
+.forgot-password-link {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color:navy;
+}
